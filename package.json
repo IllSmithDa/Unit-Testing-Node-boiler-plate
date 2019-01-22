@@ -1,0 +1,20 @@
+{
+  "name": "Getitdone-server2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jasmine tests/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jasmine-node": "^1.16.2",
+    "nodemon": "^1.18.9",
+    "request": "^2.88.0"
+  }
+}
